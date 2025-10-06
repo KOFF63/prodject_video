@@ -104,7 +104,7 @@ class Main extends React.Component{
     }
 
     componentDidMount(){
-        fetch('http://www.omdbapi.com/?i=tt3896198&apikey=714040eb&s=matrix')
+        fetch('https://www.omdbapi.com/?i=tt3896198&apikey=714040eb&s=matrix')
             .then(response => response.json())
             .then(data => {
                 const totalPages = Math.ceil(data.totalResults / 10);
@@ -119,7 +119,7 @@ class Main extends React.Component{
 
     searchMovie = (str, type = 'all', page = 1) => {
         this.setState({loading: true})
-        fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=714040eb&s=${str}${type !== 'all' ? `&type=${type}` : ''}&page=${page}`)
+        fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=714040eb&s=${str}${type !== 'all' ? `&type=${type}` : ''}&page=${page}`)
             .then(response => response.json())
             .then(data => {
                 if (data.Response === "True") {
