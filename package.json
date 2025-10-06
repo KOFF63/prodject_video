@@ -2,7 +2,7 @@
   "name": "four",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https:///KOFF63.github.io/prodject_video.git",
+  "homepage": "https://KOFF63.github.io/prodject_video",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
