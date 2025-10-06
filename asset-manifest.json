@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/prodject_video.git/static/css/main.4426fbfc.css",
-    "main.js": "/prodject_video.git/static/js/main.7711d530.js",
-    "index.html": "/prodject_video.git/index.html",
-    "main.4426fbfc.css.map": "/prodject_video.git/static/css/main.4426fbfc.css.map",
-    "main.7711d530.js.map": "/prodject_video.git/static/js/main.7711d530.js.map"
+    "main.css": "/prodject_video/static/css/main.4426fbfc.css",
+    "main.js": "/prodject_video/static/js/main.e99f65aa.js",
+    "index.html": "/prodject_video/index.html",
+    "main.4426fbfc.css.map": "/prodject_video/static/css/main.4426fbfc.css.map",
+    "main.e99f65aa.js.map": "/prodject_video/static/js/main.e99f65aa.js.map"
   },
   "entrypoints": [
     "static/css/main.4426fbfc.css",
-    "static/js/main.7711d530.js"
+    "static/js/main.e99f65aa.js"
   ]
 }
